@@ -123,3 +123,4 @@ services:
         command: webserver
         environment:
           - AIRFLOW_HOME=/usr/local/airflow
+          - DOCUMENTSTORE_URL=${DOCUMENTSTORE_URL}
